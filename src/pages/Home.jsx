@@ -1,5 +1,6 @@
 import Banner from "../components/Home/Banner";
 import NoticeMarque from "../components/Home/NoticeMarque";
+import StudentCorner from "../components/Home/StudentCorner";
 import Divider from "../components/shared/Divider";
 import NavBar from "../components/shared/NavBar";
 
@@ -11,6 +12,7 @@ const Home = () => {
             <Divider></Divider>
             <Banner></Banner>
             <NoticeMarque></NoticeMarque>
+            <StudentCorner></StudentCorner>
         </>
     );
 };
