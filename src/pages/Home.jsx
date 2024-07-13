@@ -1,3 +1,4 @@
+import Award from "../components/Home/Award";
 import Banner from "../components/Home/Banner";
 import NoticeMarque from "../components/Home/NoticeMarque";
 import StudentCorner from "../components/Home/StudentCorner";
@@ -13,6 +14,7 @@ const Home = () => {
             <Banner></Banner>
             <NoticeMarque></NoticeMarque>
             <StudentCorner></StudentCorner>
+            <Award></Award>
         </>
     );
 };
