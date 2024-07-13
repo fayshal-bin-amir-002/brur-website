@@ -1,5 +1,6 @@
 import Award from "../components/Home/Award";
 import Banner from "../components/Home/Banner";
+import NewsFeatures from "../components/Home/NewsFeatures";
 import NoticeMarque from "../components/Home/NoticeMarque";
 import StudentCorner from "../components/Home/StudentCorner";
 import Divider from "../components/shared/Divider";
@@ -15,6 +16,7 @@ const Home = () => {
             <NoticeMarque></NoticeMarque>
             <StudentCorner></StudentCorner>
             <Award></Award>
+            <NewsFeatures></NewsFeatures>
         </>
     );
 };
