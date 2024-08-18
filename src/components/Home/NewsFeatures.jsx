@@ -10,6 +10,7 @@ const NewsFeatures = () => {
                 <div className="mb-8 lg:mb-10 flex justify-between items-center flex-wrap">
                     <h3 className="text-3xl md:text-4xl font-semibold mb-3">News and Features</h3>
                     <Link className="opacity-80 text-[#055b8e] font-medium hover:text-orange-600 duration-300">All News & Features <FaArrowRight className="inline" /></Link>
+                    
                 </div>
                 <div className="flex flex-col-reverse lg:flex-row justify-center items-center">
                     <Link className="w-full lg:w-1/2 group">
